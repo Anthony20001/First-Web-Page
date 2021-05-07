@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Proyecto de tic</title>
+	<link rel="icon" type="icon" href="icon.ico"/>
+	<link rel="stylesheet"  href="cssa.css">
+    <meta charset="utf-8">
+    <meta lang="es">
+</head>
+
+<body class="body">
+
+    <!--titulo de la página-->
+	<header class="header" > 
+	<h1 class="titulo"> Sistemas y aplicaciones web </h1> 
+	
+	<!--Bloque de busqueda-->
+	<div class="box">
+	<div class="search1">
+		<form action="search">
+			<input class="search2" type="search" name="Búsqueda" placeholder="Búsqueda">
+			<img class="icono" src="imgsearch2.png" alt="" align="right">
+		</form>
+	</div>
+	</div>
+	</header>
+
+	<br><br><br><br><br>
+
+    <!--indice-->
+    <div class="indice1" style="margin-top: 6px; position: absolute;position: fixed;">
+    <p class="th"> Contenido </p>
+	<ul class="indice2">
+
+		<li><a href="#introduccion">4.1 Introducción</a></li>
+
+        <li><a href="#Plataformaweb">4.2 Plataforma web</a>
+            <ul>
+             <li><a href="#evolución">4.2.1 Evolución (web 1.0, 2.0, 3.0, 4.0)</a></li>
+             <li><a href="#conceptos">4.2.2 conceptos básicos y definiciones fundamentales</a></li>
+             <li><a href="#servicios"> 4.2.4 Servicios asociados</a></li>
+           </ul>
+       </li>
+
+       <li><a href="#entorno">4.3 Introducción al entorno de programación WEB</a>
+         <ul>
+          <li><a href="#fundamentos">4.2.4 fundamentos para el diseño de sitios web</a></li>
+          <li><a href="#intro">4.2.4 Introducción a la programación html</a></li>
+          <li><a href="#estructura">4.2.4.1  Estructura de un programa</a></li>
+        </ul>
+      </li>
+
+      <li><a href="#tendencias">4.4 Tendencias y tecnologías emergentes ampliamente reconocidas</a></li>
+    </ul>
+    </div>
+
+    <!--slider-->
+	<div class="slider" style="display: inline-block;">
+			<ul> 
+				<li>  <img src="grupo6.3.jpg" alt=""> </li> 
+				<li>  <img src="web2.jpg" alt=""></li> 
+				<li>  <img src="program2.jpg" alt=""> </li>
+				<li> <img src="tendencia.jpg" alt=””></li> <b id="introduccion"></b>
+
+			</ul> 
+	</div>
+
+	
+	<br> <br><br>
+
+   
+    <section class="contenido">
+
+    	 <!--Introducción-->
+		<h4 class="introducción"> <b> <em> 4.1 </em> Introducción </b> </h4> 
+        
+		<p> Los sistemas y  aplicaciones web son populares debido a lo práctico del navegador web como Cliente ligero, a la independencia del Sistema operativo, así como a la facilidad para actualizar y mantener aplicaciones web sin distribuir e instalar software a miles de usuarios potenciales.<br><br>
+
+		Se denomina aplicación web a aquellas aplicaciones que los usuarios pueden utilizar accediendo a un Servidor web a través de Internet o de una intranet mediante un navegador. En otras palabras, es una aplicación (Software) que se codifica en un lenguaje soportado por los navegadores web en la que se confía la ejecución al navegador. Es importante mencionar que una Página Web puede contener elementos que permiten una comunicación activa entre el usuario y la información. Esto permite que el usuario acceda a los datos de modo interactivo, gracias a que la página responderá a cada una de sus acciones, como por ejemplo rellenar y enviar formularios, participar en juegos diversos y acceder a gestores de base de datos de todo tipo.
+		<br><br>
+
+		<b >Estructura de las aplicaciones</b> web Aunque existen muchas variaciones posibles, una aplicación web está normalmente estructurada como una aplicación de tres-capas. En su forma más común, el navegador web ofrece la primera capa y un motor capaz de usar alguna tecnología web dinámica (ejemplo: PHP, Java Servlets o ASP, ASP.NET, CGI, ColdFusion, embPerl,Pitón (programming language) o Ruby on Rails) constituye la capa de enmedio. Por último, una base de datos constituye la tercera y última capa. El navegador web manda peticiones a la capa de enmedio que ofrece servicios valiéndose de consultas y actualizaciones a la base de datos y a su vez proporciona una interfaz de usuario.<br id="Plataformaweb"><br><br><br>
+
+
+        <!--4.2 Plataforma web-->
+		<h4 id="Plataformaweb"> <em> <b> 4.2 Plataforma web </b> </em> </h4> 
+
+		<p>
+			Es un lugar de Internet, portal o ciber sitio, que sirve para almacenar diferentes tipos de información tanto personal como a nivel de negocios. Estas plataformas funcionan con determinados tipos de sistemas operativos y ejecutan programas o aplicaciones con diferentes contenidos, como pueden ser juegos, imágenes, texto, cálculos, simulaciones y vídeo, entre otros, que se pueden considerar agrupados en una colección de herramientas y servicios que una organización utiliza para desarrollar una estrategia digita.
+		</p>
+
+		<p>
+			Las plataformas digitales se han posicionado en el ámbito virtual a través del inicio de la Web 2.0, que definió nuevas alternativas sobre el uso de la plataforma web para trabajo colaborativo. Mediante la nueva interacción entre usuarios y los sistemas virtuales, se han difuminado las plataformas digitales dando origen a la diversidad de sitios web que soporta esta línea de trabajo virtual.
+		</p><br>
+        
+        <!--Características de las plataformas webs-->
+		<th><b> Características de las plataformas webs </b> </th>
+
+
+		 <ol> 
+		 <li> <b> Son creadoras de contenidos y servicios</b>: reúnen en diferentes proveedores, aplicaciones, servicios, contenidos y desarrolladores. Su valor crece en la medida que aumenta la oferta, tanto en cantidad como en calidad.</li>	
+
+		  <li> <b> Pueden ser abiertas o cerradas </b>. Apple es la dominadora entre las plataformas cerradas o propietarias, mientras Android o varias compañías de telecomunicaciones aspiran a crear plataformas abiertas con diferentes grados de control sobre los desarrollos de terceros).</li>	
+
+		   <li> <b> Son multe apoyo y multicanal</b>. Permite el acceso a través de web, móviles, videoconsolas, televisiones conectadas a Internet, etc.</li>	
+
+		    <li> <b id="evolución"> Dan más control de los contenidos y de sus derechos de propiedad intelectual y uso a los proveedores</b>, además de reunir más datos de los clientes y son gestoras del usuario final.< /li >	
+		     
+		 </ol>
+         <br ><br>
+
+          <!--4.2.1 Evolución de las webs-->
+
+		 <h4> 4.2.1 Evolución de las webs 1.0, 2.0, 3.0, 4.0 </h4>
+		 <br>
+         
+         <div align="center">
+		 <th><b> La Web 1.0 </b></th>
+         <br>
+         <br>
+		 <img class="imgweb1" src="1.0.gif" alt="" /> <br>
+		 </div>
+
+		 <p>  empezó en los años 60, de la forma más básica que existe, con navegadores de sólo texto, como ELISA, después surgió el HTML que hizo las páginas más agradables a la vista y a los primeros navegadores visuales como Netscape e Internet Explorer.
+		 Esta Web es de sólo lectura, el usuario no puede interactuar con el contenido de la página, se encuentra limitada a lo que el Web master sube al sitio Web.
+        </p>
+
+<br>
+<th><b> Algunos elementos de diseño típicos de un sitio Web 1.0 incluyen: </b></th>
+
+<ol>
+	<li>Páginas estáticas para el usuario que la visita</li>
+	<li>El uso de framesets o marcos</li>
+	<li>Extensiones propias del HTML como el parpadeo y las marquesinas, etiquetas introducidas durante la guerra de los navegadores.</li>
+	<li>Libros de visitas en línea o guestbook
+	Botones gif.</li>
+	<li>Formularios HTML enviados vía email.</li>
+
+</ol>
+
+<br><br>
+
+<div align="center">
+<th><b> La Web 2.0 </b></th>
+<br>
+<br>
+
+
+ <img class="imgweb2" src="web2a.jpg" alt="" /> 
+ </div>
+
+<p> El término Web 2.0, acuñado por Tom O' Reilly en el año 2004 hace referencia a una segunda generación de modelos de páginas Web. Se entiende como una nueva filosofía de navegar, una nueva forma de participar en la red. Su antecesor, la Web 1.0, presenta un modelo de navegación más estático, este nuevo formato fomenta la participación activa. El usuario ya no se limita a acceder a la información, sino que la crea. </p>
+
+<th><b> Los principios del modelo 2.0 son los siguientes: </b></th>
+
+	<ol>
+	<li> La Web es una plataforma</li>
+    <li> La información es lo que mueve Internet </li>
+    <li> Los efectos de Internet son a su vez movidos por la participación </li>
+    <li> Las distintas características de la red pueden desarrollarse de manera independiente </li>
+	</ol>
+<br><br>
+
+<div align="center">
+<th><b> La Web 3.0 </b></th>
+<br><br>
+<img class="imgweb3a" src="web3a.png" alt="" /> 
+</div>
+
+<p> Un nuevo término, Web 3.0, surgió para relacionar las Webs semánticas. Se trata de una extensión de World Wide Web, por la que se pueden encontrar datos en cualquier lengua y en formatos aptos para todo tipo de software. Se basa fundamentalmente en la información y su estructuración, que le permite al usuario encontrarla de manera más rápida y eficaz. Web 3.0 es un neologismo que se utiliza para describir la evolución del uso y la interacción en la red a través de diferentes caminos.</p>
+
+<br><br>
+
+<div align="center">
+<th><b>La Web 4.0 </b></th>
+<br>
+<br>
+<img class="imgweb4a" src="web4a.jpg" alt="" /> 
+</div>
+
+<p> Es aquella en donde la experiencia del usuario es elemental al diseñar o crear plataformas, productos y servicios. "Se potencia la web semántica con el aporte de la inteligencia artificial para así proveerle a los consumidores una mejor experiencia.
+Se trata de una web activa. Por ejemplo, hasta la fecha, el uso de buscadores es algo importante, ya que brindan información (páginas web) sobre lo que un usuario busca o escribe. Sin embargo, la web 4.0 será mucho más activa y funcionará como un asistente virtual con inteligencia artificial. Una persona puede decir "quiero una reservación en un hotel en <b id="conceptos"></b>el centro de Lima para el 15 de agosto". Entonces, el asistente entenderá el lenguaje y directamente reservará lo solicitado, basándose en reservas previas, gustos, presupuestos comunes u otros factores propios del usuario. 
+</p>
+<br><br>
+
+<!--4.2.2 Conceptos básicos y definiciones fundamentales-->
+<h4> 4.2.2 Conceptos básicos y definiciones fundamentales </h4>
+
+	<div align="center">
+	<b>1. Hipervínculo </b>
+	<br>
+	<img class="hypervinculo" src="hypervinculo.png" alt="" /> </div>
+	<p>Al hipervínculo se le suele llamar "enlace web" o en su versión anglosajona "link". Un hipervínculo es una conexión de una página a otro destino como, por ejemplo, otra página o una ubicación diferente en la misma página. El destino es con frecuencia otra página Web, pero también puede ser una imagen, una dirección de correo electrónico, un archivo (como por ejemplo, un archivo multimedia o un documento de Microsoft Office) o un programa. Un hipervínculo puede ser texto o una imagen. Lenguaje de programación: Lenguaje con el que está desarrollada una página web.</p>
+	<br>
+    
+    <div align="center">
+	<b>2. Arquitectura web </b>
+	<br>
+	<img class="arqweb" src="arqweb.jpg" alt="" /> </div>
+	<p>es la ordenación de todas las secciones, páginas y contenidos de toda la página. Se basa en montar un sistema coherente con todas las páginas interiores y como se navega entre páginas. Por ejemplo, en la portada de www.taovisual.com tenemos acceso a los servicios, de los servicios tenemos acceso al formulario. Muchas webs tienen la sección Mapa web que es una parte de la arquitectura web donde se marcan todas las páginas que hay y la dependencia entre ellas. Ejemplo: Servicios > Páginas web.</p> <br>
+
+    <div align="center">
+	<b>3. HTML </b>
+	<br>
+	<img class="htmimg" src="htmimg.jpg" alt="" /> </div>
+	<p>Lenguaje de marcado de hipertexto,estándar de marcas empleado para documentos del World Wide Web. </p> <br>
+
+    <div align="center">
+	<b>4. Servidor </b>
+	<br>
+	<img class="serverimg" src="serverimg.jpg" alt="" /> </div>
+	<p> Máquina conectada a Internet que entre otros servicios ofrece albergue para páginas web haciendo que estén accesibles desde cualquier punto de Internet. </p> <br><br>
+
+    <div align="center">
+	<b> Cliente FTP </b>
+	<br>
+	<img class="ftpimage" src="ftpimage.png" alt="" /> <b id="servicios"></b></div>
+	<p>Programa que permite conectarse al servidor para publicar páginas web. </p>
+    <br><br>
+
+
+<!--4.2.4 Servicios asociados a la web-->
+<br><br><h4>4.2.4 Servicios asociados a la web</h4>
+	<div align="center">
+	<b>1. Las Wikis </b>
+	<br>
+	<img class="imgwikis" src="imgwikis.png" alt="" /> </div>
+	<p>Sitios de acceso libre a la información mediante la acumulación voluntaria de saberes, a la manera de las antiguas enciclopedias, pero esta vez organizada de manera colaborativa: cada usuario aporta su granito de arena. </p><br>
+
+    <div align="center">
+	<b>2. Podcasts</b>
+	<br>
+	<img class="imgpodcast" src="imgpodcast.gif" alt="" /> </div>
+	<p>Son una serie de episodios grabados en audio y transmitidos online que permiten al usuario escucharlas cuando y donde quiera, a menudo ofreciendo conocimientos, tutoriales o simplemente programas de ocio. </p><br>
+
+    <div align="center">
+	<b>3. Blogs</b>
+	<br>
+	<img class="imgblog" src="imgblog.jpg" alt="" /> </div>
+	<p>Un blog es un espacio web personal en el que su autor puede escribir artículos, noticias con el fin de lograr determinados objetivos.</p> <br>
+
+    <div align="center">
+	<b>4. Almacenamiento Online</b>
+	<br>
+	<img class="imgonlinestorage" src="imgonlinestorage.jpg" alt="" /> </div>
+	<p>modelo de almacenamiento que le permite almacenar y tener acceso a sus archivos importantes de forma segura y protegida en línea. Dropbox, Google Drive, OneDrive.</p><br>
+
+    <div align="center">
+	<b>5. Los Foros</b>
+	<br>
+	<img class="imgforos" src="imgforos.jpg" alt="" /> </div>
+	<p>Sitios web de discusión en línea donde las personas publican mensajes alrededor de un tema con el propósito de que grupos de intereses comunes interactúen intercambiando ideas, teorías y opiniones.  </p><br>
+
+    <div align="center">
+	<b>6. Audio conferencia o Videoconferencia</b>
+	<br>
+	<img class="imgvideoconferencia" src="imgvideoconferencia.gif" alt="" /> </div>
+	<p>Podemos realizar charlas, emitir <b id="entorno"></b>conferencias o cursos, en resumen comunicarnos, pero utilizando el sonido o el video como tecnologías de comunicación. En ambos casos, se proporcionan entornos más enriquecedores.</p><br><br>
+
+
+
+    <!-- 4.3 Introducción al entorno de programación web -->
+    <h4> 4.3 Introducción al entorno de programación web </h4><br>
+
+    <div align="center">
+    <img class="entorno" src="entorno2.gif" alt=""><br></div>
+
+    <p> <b>Definición</b><br>
+    	Se entiende por diseño la forma y el estilo de la página, es decir, no basta con crear una página mediante HTML y CSS, sino que la página debe resultar útil y atractiva para el usuario. El diseño es fundamental para el éxito de un sitio web.
+    </p>
+
+    <p> Entran dentro del diseño, aspectos tales como la maquetación, los colores, la distribución de elementos, el tamaño y forma de los mismos, y otros elementos del estilo y composición del sitio.</p>
+
+    <p> El desarrollo de una aplicación web consta básicamente de un lenguaje de etiquetas construido por el HTML, un lenguaje de estilos construido por el CSS para representar los elementos del HTML y por un lenguaje de programación, JavaScript, que es el responsable del funcionamiento de la aplicación.</p><br>
+
+    <div align="center">
+    <b>Lenguaje HTML</b><br><br>
+
+    <img class="html2" src="html2.gif" alt=""></div>
+
+    <p>El HTML es un lenguaje de marcas de hipertexto (HyperText Markup Language) que se emplea para estructurar semánticamente el contenido de una página web. Para definir qué se ve y cómo se ve, se utilizan las llamadas etiquetas (o Tags en inglés), que le trasladan al navegador web las instrucciones necesarias para que presente la página en la pantalla.</p>
+
+    <p>Para definir una etiqueta se utilizan los paréntesis angulares < > (los símbolos «menor que» y «mayor que», que enmarcan habitualmente la etiqueta de apertura o inicio, y «</» «>», que acotan la etiqueta de cierre o final). Lo que hay entre las etiquetas suele ser el texto que se puede ver directamente en pantalla, o aquellos elementos que no están destinados a ser visibles y su relación con otros documentos.</p>
+
+    <p><b>¿Es necesario aprender algún lenguaje de programación?</b><br>
+    	Una parte importante de la investigación y preparación es averiguar qué lenguajes de programación existen y cuál es el que mejor se adapta a las necesidades de tus proyectos. Los más conocidos y utilizados son: 
+    </p>
+
+    <ul>
+    	<li>Java</li>
+    	<li>C</li>
+    	<li>C++</li>
+    	<li>C#</li>
+    	<li>Objective-C</li>
+    	<li>Python</li>
+    	<li>Visual Basic .NET</li>
+    	<li>PHP</li>
+    	<li>JavaScript</li>
+    </ul><br>
+
+    <div align="center">
+    <p><b>Programación web</b></p>
+
+    <img class="ds1" src="DW1.gif" alt=""><br></div>
+
+    <p>Si quieres crear páginas web o personalizar tus aplicaciones web, lo mejor es comenzar por los aspectos básicos. HTML y CSS no son lenguajes de programación. Estos       constituyen la base de la mayoría de páginas web y son, por lo tanto, el punto de partida para muchos principiantes. Con la ayuda de HTML es posible diseñar <b id="fundamentos"></b> elementos web y fijar las bases de una página. HTML5 permite dar un paso más allá, pues ofrece mayores posibilidades audiovisuales.</p><br><br>
+
+    <!--4.3.1 Fundamentos para el diseño de Sitios Web-->
+    <h4>4.3.1 Fundamentos para el diseño de Sitios Web</h4><br>
+
+    <div align="center"><img class="funda" src="funda.gif" alt=""><br></div>
+
+    <p><b>Es importante seguir una seria de reglas para mantener una buena calidad en nuestros diseños web:</b></p>
+
+    <ol>
+    	<li><b>Atención al contenido:</b> Elige fuentes que apoyen tu contenido
+    	Existen literalmente miles de fuentes para elegir. Depende de ti mezclar y probar, pero recuerda que la mejor práctica es usar máximo tres tipografías a la vez, una para el titular, otra para el cuerpo principal de texto y otra para cualquier tipo de llamada o menú específico que necesites.</li><br>
+
+    	<li><b>Sigue las reglas:</b> se deben respetar los principios del diseño, como el orden y la simetría, pero a su vez, crear contrastes para llamar la atención del usuario. Puede resultar muy interesante crear nuevos sitios con grandes scroll horizontales/verticales, y a la vista resultan muy creativos, pero la razón por la que muchas páginas web usan la disposición en 3 columnas, es simplemente porque funciona, (las personas, sobre todo las adultas, llevamos mucho tiempo acostumbradas a ver esta disposición en los medios escritos).</li><br>
+
+    	<li><b>El color como un elemento de diseño, no como simple decoración:</b> El color únicamente se ha de utilizar para apoyar el contenido, no como relleno para decorar una página web. Una de las mejores reglas para aplicar en el diseño web es el uso de colores complementarios</li><br>
+
+        <div align="center">
+    	<img class="Color" src="color.jpg" alt=""></div>
+    	<p>En la siguiente imagen aparece en círculo cromático en el que las líneas unen dos colores que son complementarios entres sí mismos.</p><br>
+
+    	<li><b>No utilizar (o no abusar) de imágenes parpadeantes</b>, que se muevan demasiado, que giren…, ya que según muchos estudios este tipo de gráficos son una distracción y suelen molestar y entorpecer la navegación de los usuarios en las páginas web.</li>
+
+    	<li><b>Ayuda externa:</b> Sírvete de los consejos de personas corrientes o de comunidades de profesionales para realizar una crítica constructiva y así poder mejorar tu sitio web a través de la experiencia de otros.</li><br>
+
+    	<li><b>Usa imágenes e iconos para comunicarte siempre que sea posible:</b> Existen iconos universales que las personas comprenden nada más visualizar, la lupa (buscar), la casa (página de inicio) y el disquete (guardar) por ejemplo, aunque este último está ya en desuso por el hecho de que las nuevas generaciones jamás han visto ni utilizado un disquete.</li><br>
+
+    	<li><b>Optimiza las imágenes y que se ajusten a nuestro contenido (no al revés):</b> Aunque hoy en día muchos usuarios ya disponen de banda ancha, las páginas con gran cantidad de imágenes y de tamaños considerados ralentizan la carga de la web y puede resultar bastante molesto y por consiguiente el abandono de la página antes de tiempo.</li><br>
+
+    	No hay que olvidar el incremento estos últimos años de los accesos de los usuarios a través de sus Smartphone, por lo que resulta fundamental disponer de todos nuestros elementos multimedia (imágenes, vídeos…) adaptados para distintas resoluciones de pantalla.<br><br>
+
+    	<li><b>Elegir fuentes compatibles con el contenido:</b> En la red existen miles de fuentes para elegir, pero recuerda que es recomendable <b id="intro"></b> usar como máximo tres fuentes a la vez, una para el título, una para el cuerpo principal, y la última para cualquier tipo enlace que se pueda necesitar.</li><br><br><br>
+
+    	
+        <!--4.3.2 Introducción a la programación HTML-->
+    	<h4>4.3.2 Introducción a la programación HTML</h4>
+
+    	<p>El lenguaje HTML se creó en 1991. Tiene una historia realmente corta pero para su poca vida ha sufrido importantes cambios. Su padre es Tim Berners-Lee que lo diseñó con objetivos divulgativos. Inicialmente no se pensó que la web llegaría a ser un área de ocio con carácter multimedia, de modo que, nació sin dar respuesta a todos los posibles usos que se le iba a dar y a todos los colectivos de gente que lo utilizarían en un futuro. Sin embargo, pese a esta deficiente planificación, sí que se han ido incorporando modificaciones con el tiempo, agregando nuevas características para cubrir las nuevas necesidades. </p><br>
+
+        <div align="center">
+        <img class="tim" src="tim.jpg" alt=""><br>
+    	<scan>Tim Berners-Lee</scan><br><br></div>
+
+    	<p>El HTML es el lenguaje con el que se escriben las páginas Web. Es un lenguaje de hipertexto, es decir, un lenguaje que permite escribir texto de forma estructurada, y que está compuesto por etiquetas, que marcan el inicio y el fin de cada elemento del documento. A hora bien lo que hace que el HTML sea un lenguaje práctico y poderoso son los browser. Estos son programas utilizados para visualizar las páginas Web. Los más utilizados son el Internet Explorer y Netscape. Los browser se encargan de interpretar el código HTML de los documentos, y de mostrar a los usuarios las páginas Web resultantes del código interpretado. 1 HTML.</p><br>
+
+    	<p><b>HTML es el lenguaje con el que se "escriben" las páginas web. Se puede resumir la filosofía del HTML con los siguientes puntos:</b></p>
+
+    	<ul>
+    		<li>Es muy sencillo</li>
+    		<li>No hay variables</li>
+    		<li>No se compila</li>
+    		<li>Es un lenguaje interpretado</li>
+    		<li>A las instrucciones se les llama etiquetas o marcas</li>
+    		<li>Permite escribir hipertexto</li>
+    	</ul><br>
+
+    	<p>El programa que interpreta este lenguaje es el navegador (Internet Explorer, Netscape, Firefox, etc.). Este lenguaje es el usado por los navegadores para mostrar las páginas web.
+    	</p>
+      
+
+    	<div align="center" ><img class="html5" src="html5.jpg" alt=""><br id="estructura"><br><br>
+    	<br><br></div>
+         
+        <!-- 4.3.2.1 Estructura de un programa -->
+    	<h4>4.3.2.1 Estructura de un programa</h4><br>
+
+        <div align="center">
+    	<img class="estru" src="estru.png" alt=""> </div><br>
+
+    	<p><b>Para crear un verdadero documento HTML comenzará con tres elementos contenedores:</b>
+    	</p>
+
+       <ul>
+       <li>html: Este elemento envuelve todo el contenido de la página (excepto la DTD)</li><br>
+
+       <li>head: Este elemento designa la parte de encabezado del documento. Puede incluir información opcional sobre la página Web, como puede ser el título (el navegador lo muestra en la barra de título), palabras clave de búsqueda opcionales y una hoja de estilo opcional.</li><br>
+
+       <li>body: Este <b id="tendencias"></b> elemento alberga el contenido de su página Web, es decir, aquello que queremos que aparezca en el área de navegación del navegador.</li><br>
+       </ul><br><br>
+       
+        <!-- 4.4 Tendencias y Tecnologías emergentes ampliamente reconocidas-->
+		<h4>4.4 Tendencias y Tecnologías emergentes ampliamente reconocidas</h4>
+
+
+		<p>
+		1.	Redes 5G: Sin duda el año 2020 será el del 5G. Es cierto, que todavía no se ha desarrollado completamente pero son muchas las empresas tecnológicas que están llevando a cabo este proceso de desarrollo e implementación de la tecnología 5G en sus dispositivos.
+        El 5G es mucho más que una tecnología, es además una carrera en desarrollo e implantación donde son muchos los interesados en no quedarse atrás. Pues la conectividad es uno de los puntos clave en cuanto a avance. 
+
+
+        </p>
+        <div align="center"> <img src="5gg.gif" alt=" " class="g5"> </div><br><br>
+
+        <p>
+        2.	PWA y Chatbot: Empezó a tener un mayor interés en el análisis de comportamiento de los clientes en línea. PWA es una metodología de desarrollo de software que tiene su funcionamiento basado en JavaScript, CSS y HTML, y tiene básicamente los objetivos de simplificar el proceso interactivo del usuario con la plataforma, así como la interacción entre ambos, lo que implica directamente en el proceso de venta.
+        </p>
+        <div align="center"> <img src="chatbot.gif" alt=" " class="chatbot"> </div><br><br>
+        <p>
+
+        3.	Blockchain: un tema caliente en el área de tecnología, funcionando como una especie de ‘libro contable’, es decir, es una tecnología que permite el registro, validación y verificación de transacciones. Muy conocido por su aplicación detrás de Bitcoin, esta tecnología camina en una tendencia a la exportación para otros posibles contextos, como el área de salud o los puestos de trabajo por ejemplo.  permite que haya un registro completo de la circulación de los datos, resultando en un acrecimiento en los aspectos seguridad y confiabilidad.	
+        </p>
+        <div align="center"> <img src="block.gif" alt=" " class="block"></div> <br><br>
+
+        <p>
+
+        4.	Los espacios inteligentes: son entornos, físicos o digitales, en los que personas y sistemas llevan a cabo interacciones en ecosistemas abiertos, inteligentes y conectados. Así, un número elevado de elementos, procesos y servicios se unen en un determinado espacio para crear experiencias interactivas y automatizadas. Esto permite generar escenarios de la industria de lo más diversos.
+        </p>
+        <div align="center"> <img src="espaciosi.gif" alt=" " class="espaciosi"></div> <br><br>
+
+       <p>
+       5.	Animaciones: Los elementos animados. Esto es porque hoy en día, para diferenciarse, los sitios web tienden a ir más allá del patrón de estructuras, imágenes y textos listos.
+       Por más exagerado que pueda sonar, un simple elemento de animación puede ser un factor decisivo para que el usuario pueda entender de una manera más rápida la información de un sitio web, mientras que identifica los puntos importantes destacados, o sea, lo que se tiene ofrecer y que si desea que el cliente no deje pasar desapercibido.
+       </p>
+       <div align="center"> <img src="animado.gif" alt=" " class="animado"></div> <br><br>
+
+      <p>
+      6.	Páginas modulares: Ha sido una verdadera facilidad para los desarrolladores, ya que con muy poco esfuerzo y conocimiento en código, es posible generar sitio web con diseño interesante. Con esta tecnología, todo lo que se necesita es elegir el módulo adecuado para su proyecto, agregar el contenido del proyecto y finalmente publicar el resultado final en su sitio web.
+      </p>
+      <div align="center"> <img src="modularr.gif" alt=" " class="modularr"></div> <br><br>
+
+
+      <p>
+      7.	Progressive Web Apps: Progressive Web Apps (PWA). Se trata de un modelo de sitio o aplicación web que es capaz de usar diversas nuevas características disponibles en navegadores, como la posibilidad de navegar offline, desplegar notificaciones y registrar actividad sin el navegador abierto o instalarse como app en los dispositivos. Lo bueno de las PWA es que no necesitas cubrir toda la funcionalidad que ofrecen, simplemente usar aquellas partes que tengan sentido para tu aplicación web. Google viene desde hace años empujando para el éxito de esta tecnología y algunos actores reticentes como Apple, con Safari, ya se han apuntado también al soporte.
+      </p>
+      <div align="center"> <img src="pwa.png" alt=" " class="pwa"> </div><br><br>
+
+      <p>
+	  8.	Web Components: Se trata de un estándar abierto basado en JavaScript que nos ofrece la posibilidad del desarrollo basado en componentes, con capacidades nativas de los navegadores. Ha mejorado sensiblemente el soporte y su integración con todo el ecosistema de herramientas actuales. Es un excelente momento para comenzar a usarlos, independientemente del framework de preferencia, ya que los componentes son capaces de interpretar con cualquier stack frontend que pueda tener un proyecto.
+	  </p>
+	  <div align="center"> <img src="componente.gif" alt=" " class="componente"></div> <br><br>
+
+	  <p>
+	  9.	Desarrollo híbrido: El desarrollo híbrido de apps, usando tecnologías web estándar, ha alcanzado una notable madurez. Un ejemplo de proyecto con buena salud es Ionic 4, que gracias al uso de StencilJS (un compilador de Web Components) ha sido capaz de aumentar su target entre la comunidad de desarrolladores JavaScript. Hoy podemos utilizar Ionic con cualquier framework pues sus componentes de UI basados en Web Componentes son capaces de funcionar en cualquier ámbito. Pero, además, si hablamos de desarrollo híbrido no podemos olvidarnos de los frameworks que compilan a nativo, como NativeScript.
+	  </p>
+	  <div align="center"> <img src="hibridoo.jpg" alt=" " class="hibridoo"></div> <br><br>
+
+
+      <p>
+      10.	Mobile Only:  Esto implica también la optimización de los recursos web, manteniendo una notable velocidad de carga de las páginas, dejando atrás el diseño responsive, los anuncios pop up y los header cargados, y desarrollando sitios web 100% orientados a pantallas más pequeñas y con una orientación vertical. Así mismo, dependiendo de la marca, la implementación de sistemas de pago o incluso el desarrollo de una app. 
+	  </p>
+	  <div align="center"> <img src="only.jpg" alt=" " class="only"> </div><br><br>
+
+      <p>
+	  11.	Vehículos autónomos: el deseo cada vez mayor de los consumidores de tener un coche sin conductor ya ha traído consigo amplias mejoras en la calidad y la recopilación de los datos para los dispositivos de control de seguridad e información del tráfico.
+	  </p>
+	  <div align="center"> <img src="autonomo.gif" alt=" " class="autonomo"> </div><br><br>
+
+      <p>
+      12.	Reuniones online: Una conferencia web o conferencia en línea es un término usado para referirse a varios tipos de servicios de colaboración en línea entre participantes. Es una manera de compartir información (documentos y aplicaciones), impartir una charla o desarrollar un curso en tiempo real con la misma calidad que si se llevara a cabo en un aula. </p>
+      <div align="center"> <img src="reuniones.gif" alt=" " class="reuniones"> </div>
+
+	  <p>
+	  Las plataformas digitales se han posicionado en el ámbito virtual a través del inicio de la Web 2.0, que definió nuevas alternativas sobre el uso de la plataforma web para trabajo colaborativo. Mediante la nueva interacción entre usuarios y los sistemas virtuales, se han difuminado las plataformas digitales dando origen a la diversidad de sitios web que soporta esta línea de trabajo virtual.
+	</p><br>
+        
+ 
+
+        <!--Comentarios-->
+      
+
+		 
+	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<br><br>
+	
+	
+	</section>
+
+
+
+
+</body>
+
+
+</html>
